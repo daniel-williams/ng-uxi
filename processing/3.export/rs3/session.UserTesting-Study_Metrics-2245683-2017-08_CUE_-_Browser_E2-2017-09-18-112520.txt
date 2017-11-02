@@ -1,0 +1,271 @@
+                              2017-08 CUE - Browser E2																														
+Ordered By	Michael Van Waardhuizen (micvan@microsoft.com)																													
+Order Date	"Sep 5 2017, 1:35pm PDT"																													
+Number of Participants	30																													
+																														
+Need help?	support@usertesting.com																													
+																														
+Username	mhayes0716	alexfairlie	JohnDeyeso	tiffwatson7	Karghitect	Reed_pro	dsince1984	vna18	danlaucas	lkayer	supyonamesjosh	Joyahocker	dplachy	watso	Sbuerger	ldix16	Gareath	skielandrianna	marissia.watkin	Troy.Rial	WhitNit	ladylyn	johnstevensonv	jasyu22	jhua	Looper116	Axan	jada444	aleighty3	CWildman
+Test ID #	2245683C	2245683D	2245683G	2245683H	2245683I	2245683J	2245683K	2245683L	2245683M	2245683N	2245683O	2245683R	2245683S	2245683V	2245683X	2245683Y	2245683B	2245683E	2245683F	2245683P	2245683Q	2245683T	2245683U	2245683W	2245683Z	2245683AA	2245683AB	2245683AC	2245683AD	2245683AE
+Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video	Play Video
+Participant Demographics																														
+Device	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer	Computer
+Age	39	27	41	28	22	24	33	26	21	28	28	26	27	30	21	21	33	44	36	27	30	39	26	30	25	27	31	40	39	44
+Annual household income	"$40,000 to $100,000"	"Less than $40,000"	"$100,000 +"	"$40,000 to $100,000"	"Less than $40,000"	"$40,000 to $100,000"	"$40,000 to $100,000"	"Less than $40,000"	"$40,000 to $100,000"	"$40,000 to $100,000"	"$40,000 to $100,000"	"Less than $40,000"	"$40,000 to $100,000"	"$100,000 +"	"Less than $40,000"	"Less than $40,000"	"Less than $40,000"	"Less than $40,000"	"Less than $40,000"	"Less than $40,000"	"$40,000 to $100,000"	"$40,000 to $100,000"	"$40,000 to $100,000"	"$100,000 +"	"Less than $40,000"	"Less than $40,000"	"Less than $40,000"	"$100,000 +"	"$40,000 to $100,000"	"$40,000 to $100,000"
+Gender	Male	Male	Male	Female	Male	Male	Female	Female	Female	Female	Male	Female	Female	Male	Male	Female	Male	Female	Female	Male	Female	Female	Male	Female	Female	Female	Male	Female	Female	Female
+Country	United States	Canada	United States	United States	United States	Canada	United States	United States	United States	United States	United States	United States	United States	Canada	United States	United States	United States	United States	United States	United States	United States	United States	United States	United States	Canada	United States	United States	United States	United States	Canada
+Web expertise	Advanced	Average	Advanced	Average	Advanced	Advanced	Advanced	Advanced	Advanced	Average	Advanced	Advanced	Advanced	Average	Average	Advanced	Advanced	Advanced	Advanced	Average	Average	Average	Advanced	Advanced	Average	Average	Advanced	Average	Advanced	Advanced
+Operating System	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0
+Web Browser	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome
+Social Networking	"Facebook, Linkedin, Twitter, Pinterest, Google+"	"Facebook, Linkedin"	"Facebook, Linkedin, Twitter"	"Google+, Pinterest, Linkedin, Facebook"	"Google+, Pinterest, Twitter, Linkedin, Facebook"	"Google+, Pinterest, Twitter, Linkedin, Facebook"	"Google+, Pinterest, Twitter, Linkedin, Facebook"	"Facebook, Twitter"	"Pinterest, Twitter, Facebook"	"Facebook, Linkedin, Pinterest"	"Twitter, Linkedin, Facebook"	"Pinterest, Facebook"	"Pinterest, Linkedin, Facebook"	"Facebook, Linkedin, Twitter, Pinterest, Google+"	"Twitter, Google+, Facebook"	Pinterest	Facebook	"Google+, Pinterest, Twitter, Linkedin, Facebook"	"Google+, Pinterest, Twitter, Linkedin, Facebook"	"Pinterest, Twitter, Linkedin, Facebook"	"Google+, Pinterest, Twitter, Linkedin, Facebook"	"Google+, Facebook"	"Google+, Pinterest, Twitter, Linkedin, Facebook"	"Facebook, Linkedin, Twitter, Pinterest"		"Facebook, Pinterest"	Linkedin	Facebook	Facebook	"Google+, Pinterest, Twitter, Linkedin, Facebook"
+Other Requirement																														
+Screeners																														
+Question 1																														
+How old are you?	25-45	25-45	25-45	25-45	18-25	18-25	25-45	18-25	18-25	25-45	25-45	25-45	25-45	25-45	18-25	18-25	25-45	25-45	25-45	25-45	25-45	25-45	25-45	25-45	25-45	18-25	25-45	25-45	25-45	25-45
+																														
+Question 2																														
+What is the highest level of schooling you have completed?	Completed Masters or Ph.D.	Completed Bachelors or Associates degree	Completed Masters or Ph.D.	Completed Bachelors or Associates degree	Some college	Completed Bachelors or Associates degree	Completed Masters or Ph.D.	Completed Bachelors or Associates degree	Completed Bachelors or Associates degree	Completed Masters or Ph.D.	Completed Masters or Ph.D.	Completed Bachelors or Associates degree	Completed Bachelors or Associates degree	Completed Masters or Ph.D.	Some college	Completed Bachelors or Associates degree	Some college	Completed Bachelors or Associates degree	Completed Bachelors or Associates degree	Completed Masters or Ph.D.	Some college	Completed Bachelors or Associates degree	Completed Masters or Ph.D.	Completed Bachelors or Associates degree	Completed Bachelors or Associates degree	Some college	Completed Bachelors or Associates degree	Completed Bachelors or Associates degree	Completed Masters or Ph.D.	Some college
+																														
+Question 3																														
+What is your employment status?	"I work for a single employer, for whom I am paid on a regular basis"	"I work for a single employer, for whom I am paid on a regular basis"	I am a small business owner who employs one or more individuals	"I work for a single employer, for whom I am paid on a regular basis, I sell work or services by the hour/day/job to multiple clients (sometimes known as freelancing or contracting.)"	I sell work or services by the hour/day/job to multiple clients (sometimes known as freelancing or contracting.)	"I work for a single employer, for whom I am paid on a regular basis"	"I work for a single employer, for whom I am paid on a regular basis"	I sell work or services by the hour/day/job to multiple clients (sometimes known as freelancing or contracting.)	I am a full time student	"I work for a single employer, for whom I am paid on a regular basis"	"I work for a single employer, for whom I am paid on a regular basis"	I am a small business owner who employs one or more individuals	"I work for a single employer, for whom I am paid on a regular basis"	"I work for a single employer, for whom I am paid on a regular basis"	I am a full time student	I am a full time student	I sell work or services by the hour/day/job to multiple clients (sometimes known as freelancing or contracting.)	I sell work or services by the hour/day/job to multiple clients (sometimes known as freelancing or contracting.)	"I am a full time student, I work for a single employer, for whom I am paid on a regular basis"	"I work for a single employer, for whom I am paid on a regular basis"	"I work for a single employer, for whom I am paid on a regular basis"	"I work for a single employer, for whom I am paid on a regular basis, I sell work or services by the hour/day/job to multiple clients (sometimes known as freelancing or contracting.)"	"I work for a single employer, for whom I am paid on a regular basis"	I sell work or services by the hour/day/job to multiple clients (sometimes known as freelancing or contracting.)	I sell work or services by the hour/day/job to multiple clients (sometimes known as freelancing or contracting.)	"I am a full time student, I work for a single employer, for whom I am paid on a regular basis"	"I sell work or services by the hour/day/job to multiple clients (sometimes known as freelancing or contracting.), I am a small business owner who employs one or more individuals"	"I work for a single employer, for whom I am paid on a regular basis"	"I work for a single employer, for whom I am paid on a regular basis"	"I work for a single employer, for whom I am paid on a regular basis, I sell work or services by the hour/day/job to multiple clients (sometimes known as freelancing or contracting.), I am a small business owner who employs one or more individuals"
+																														
+Question 4																														
+What version of Windows are you using?	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10	Windows 10
+																														
+Question 5																														
+Which web browser do you primarily use on your PC?	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome	Google Chrome
+																														
+Question 6																														
+This test will require using Remote Desktop (an app built into Windows 10) to connect to and use another PC.  This will *not* affect your PC in any way.  Are you okay with that?	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"	"Yes, that's fine"
+																														
+Notes																														
+		replaced 2245683A																												
+Tester System Info																														
+Browser Version	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome	Chrome
+Color Depth	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32	32
+CPU	Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz	Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz	Intel(R) Core(TM) i5-7Y54 CPU @ 1.20GHz	AMD A8-6410 APU with AMD Radeon R5 Graphics 	Intel(R) Core(TM) i7 CPU 860 @ 2.80GHz	AMD A10-5745M APU with Radeon(tm) HD Graphics 	AMD A6-3420M APU with Radeon(tm) HD Graphics	AMD FX(tm)-8320 Eight-Core Processor 	AMD E1-1200 APU with Radeon(tm) HD Graphics	Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz	AMD A10-5800K APU with Radeon(tm) HD Graphics 	AMD A8-4555M APU with Radeon(tm) HD Graphics 	Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz	Intel(R) Core(TM) i5 CPU 760 @ 2.80GHz	Intel(R) Core(TM) i5-4200M CPU @ 2.50GHz	Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz	Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz	Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz	AMD A4-6210 APU with AMD Radeon R3 Graphics 	Intel(R) Core(TM) i3-6100U CPU @ 2.30GHz	Intel(R) Pentium(R) CPU N3520 @ 2.16GHz	Intel(R) Core(TM) i5-6198DU CPU @ 2.30GHz	Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz	Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz	Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz	Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz	Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz	Pentium(R) Dual-Core CPU T4300 @ 2.10GHz	Intel(R) Core(TM) i3-3217U CPU @ 1.80GHz	Intel(R) Pentium(R) CPU J3710 @ 1.60GHz
+Free Disk Space	7607.82 MB	137663.31 MB	426451.45 MB	372141.54 MB	222347.65 MB	627289.25 MB	248799.2 MB	492650.78 MB	410642.46 MB	416740.84 MB	442211.65 MB	152658.5 MB	593889.39 MB	275984.5 MB	416691.82 MB	815818.07 MB	125246.87 MB	586738.8 MB	850574.45 MB	855491.43 MB	646051.2 MB	893519.32 MB	474953.55 MB	101110.8 MB	29183.75 MB	121011.9 MB	216921.38 MB	133072.86 MB	132411.52 MB	862104.73 MB
+Free Memory (RAM)	10097.68 MB	2293.01 MB	3395.38 MB	3257.51 MB	9525.39 MB	3673.61 MB	646.67 MB	2742.75 MB	3268.09 MB	2770.3 MB	8831.36 MB	1199.87 MB	2630.12 MB	2011.3 MB	4147.81 MB	4723.58 MB	12840.37 MB	2764.38 MB	2327.59 MB	2304.05 MB	1862.39 MB	5185.76 MB	5696.15 MB	748.41 MB	1298.73 MB	4369.27 MB	3867.08 MB	2091.8 MB	2682.88 MB	4162.33 MB
+Operating System (OS)	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0	Windows 10 Pro 10.0	Windows 10 Home 10.0	Windows 10 Home 10.0
+Screen Resolution (in pixels)	1920 x 1080	1366 x 768	1920 x 1080	1366 x 768	1920 x 1080	1600 x 900	1600 x 900	1920 x 1080	1366 x 768	1366 x 768	1360 x 768	1366 x 768	1366 x 768	1920 x 1080	1920 x 1080	1920 x 1080	2560 x 1440	1366 x 768	1600 x 900	1366 x 768	1366 x 768	1366 x 768	1920 x 1080	1366 x 768	3200 x 1800	1920 x 1080	1366 x 768	1366 x 768	1366 x 768	1920 x 1080
+																														
+Total Memory	16323.74 MB	8104.27 MB	8075.15 MB	7128.26 MB	16343.11 MB	7364.7 MB	3561.4 MB	8173.53 MB	5706.26 MB	6029.63 MB	12241.81 MB	3270.26 MB	6075.84 MB	8190.05 MB	8124.27 MB	8074.95 MB	16323.1 MB	8076.22 MB	5054.68 MB	6034.91 MB	3984.27 MB	8056.27 MB	8143.85 MB	3979.23 MB	8104.27 MB	8051.63 MB	8075.4 MB	4056.36 MB	6029.68 MB	8102.45 MB
+Study Protocol																														
+Starting Url																														
+http://cuelink.azurewebsites.net/vm.aspx																														
+																														
+Introduction																														
+"Hi!  This test will focus on trying a few tasks using the Microsoft Edge web browser.  We will use Remote Desktop (an app built into Windows 10) to connect to and use another PC.  This will *not* affect your PC in any way.During each task, please focus on the task itself and do not multitask unless asked.   You do not need to talk aloud as you work, there will be several questions and a chance to give feedback at the end of each task. It may seem like there are a lot of questions, but they should go quickly; this test will take around 20 minutes.We want to better understand what your experience is like, so please be honest and forthcoming with your feedback. Thank you!"																														
+																														
+Tasks																														
+Task 1																														
+"First thing is to get connected to the remote PC.  There are a few steps:1. A website will open, asking for the project name.  Enter ""Browser"" and submit.2. A remote desktop file with a name similar to ""CUE-Browser00_...rdp"" will download.  Open or Run this file. It should launch in Remote Desktop Connection (built into Windows 10.)3. You will be prompted to accept an 'unknown connection' to the remote PC.  Don't worry, this is a one-way connection that won't affect your home PC at all. 4. When prompted to login, use this password: CUEpassword1Click 'Next' once you are connected and signed in (you will be able to see a background of a grey-blue color.)"																														
+																														
+Task 2																														
+"Task 1 of 7: Now that you are logged into the remote PC, go ahead and open up the Edge web browser.(It is the blue 'e' icon in the taskbar.)"																														
+																														
+Task 3 [Written Response]																														
+"Which of the following words best describes the icon for this browser:Boring, Complicated, Calm, Creative, Cutting-edge, Exciting, Familiar, Fresh, Impressive, Innovative, Inspiring, Intimidating, Old, Professional, Trustworthy, or Unprofessional?"																														
+																														
+Task 4 [Written Response]																														
+"Which of the following words best describes the design of the buttons in this browser:Boring, Complicated, Calm, Creative, Cutting-edge, Exciting, Familiar, Fresh, Impressive, Innovative, Inspiring, Intimidating, Old, Professional, Trustworthy, or Unprofessional?"																														
+																														
+Task 5 [Written Response]																														
+"Which of the following words best describes the spacing and layout of this browser:Boring, Complicated, Calm, Creative, Cutting-edge, Exciting, Familiar, Fresh, Impressive, Innovative, Inspiring, Intimidating, Old, Professional, Trustworthy, or Unprofessional?"																														
+																														
+Task 6 [Written Response]																														
+"Click the ""…"" button in the upper right hand corner.  What word best describes the appearance of this content:Boring, Complicated, Calm, Creative, Cutting-edge, Exciting, Familiar, Fresh, Impressive, Innovative, Inspiring, Intimidating, Old, Professional, Trustworthy, or Unprofessional?"																														
+																														
+Task 7 [Written Response]																														
+Please share a bit about why you gave the answers you did.																														
+																														
+Task 8																														
+"Task 2 of 7:Open up a new tab in this browser, and use it to access a frequently visited site (for example, Twitter).  Do not type the URL."																														
+																														
+"Task 9 [Multiple Choice: Yes, No, I'm not sure.]"																														
+Were you able to successfully use the new tab to get to the site that you wanted?																														
+																														
+"Task 10 [Multiple Choice: Much longer than I expected, Somewhat longer than I expected, About as I expected, Somewhat faster than I expected, Much faster than I expected]"																														
+The time it took to get to a frequently visited site from a new tab was...																														
+																														
+Task 11 [Rating Scale: Strongly disagree to Strongly agree]																														
+"Please rate to what extent you agree or disagree with the following statements:""Finding how to get to a frequently visited site from a new tab was easy."""																														
+																														
+Task 12 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Once I found how to do it, getting to a frequently visited site from a new tab was easy."""																														
+																														
+Task 13 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Getting to a frequently visited site from a new tab worked the way I expected."""																														
+																														
+Task 14 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Being able to get to a frequently visited site from a new tab is important to me."""																														
+																														
+Task 15 [Written Response]																														
+"Which of the following words best describes your experience of using a new tab to get to a frequently visited site in this browser:Boring, Complicated, Calm, Creative, Cutting-edge, Exciting, Familiar, Fresh, Impressive, Innovative, Inspiring, Intimidating, Old, Professional, Trustworthy, or Unprofessional?"																														
+																														
+"Task 16 [Multiple Choice: Very dissatisfied, Somewhat dissatisfied, Neither satisfied nor dissatisfied, Somewhat satisfied, Very satisfied]"																														
+How satisfied are you with using a new tab to get to a frequently visited site in this browser?																														
+																														
+Task 17 [Written Response]																														
+"Please share a bit about your experience with this task, and why you gave the ratings you did."																														
+																														
+Task 18																														
+Task 3 of 7:Open a new tab and use it to check the latest news about technology.																														
+																														
+"Task 19 [Multiple Choice: Yes, No, I'm not sure.]"																														
+Were you able to successfully find the latest news about technology in a new tab?																														
+																														
+"Task 20 [Multiple Choice: Much longer than I expected, Somewhat longer than I expected, About as I expected, Somewhat faster than I expected, Much faster than I expected]"																														
+The time it took to get to the latest news about technology from a new tab was...																														
+																														
+Task 21 [Rating Scale: Strongly disagree to Strongly agree]																														
+"Please rate to what extent you agree or disagree with the following statements:""Finding how to get to the latest news about technology from a new tab was easy."""																														
+																														
+Task 22 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Once I found how to do it, getting the latest news about technology from a new tab was easy to do."""																														
+																														
+Task 23 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Getting the latest news about technology from a new tab worked the way I expected it to."""																														
+																														
+Task 24 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Being able to get to the latest news about technology from a new tab is important to me."""																														
+																														
+Task 25 [Written Response]																														
+"Which of the following words best describes your experience of finding the latest technology news in this browser:Boring, Complicated, Calm, Creative, Cutting-edge, Exciting, Familiar, Fresh, Impressive, Innovative, Inspiring, Intimidating, Old, Professional, Trustworthy, or Unprofessional?"																														
+																														
+"Task 26 [Multiple Choice: Very dissatisfied, Somewhat dissatisfied, Neither satisfied nor dissatisfied, Somewhat satisfied, Very satisfied]"																														
+How satisfied are you with finding the latest news about technology in this browser?																														
+																														
+Task 27 [Written Response]																														
+"Please share a bit about your experience with this task, and why you gave the ratings you did."																														
+																														
+Task 28																														
+"Task 4 of 7: Open a new tab, and use it to check the weather in Shanghai."																														
+																														
+"Task 29 [Multiple Choice: Yes, No, I'm not sure.]"																														
+Were you able to open a new tab and check the weather in Shanghai?																														
+																														
+"Task 30 [Multiple Choice: Much longer than I expected, Somewhat longer than I expected, About as I expected, Somewhat faster than I expected, Much faster than I expected]"																														
+The time it took to check the weather in Shanghai was...																														
+																														
+Task 31 [Rating Scale: Strongly disagree to Strongly agree]																														
+"Please rate to what extent you agree or disagree with the following statements:""Finding how to check the weather in Shanghai in a new tab was easy."""																														
+																														
+Task 32 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Once I found how to do it, checking the weather in Shanghai from a new tab was easy."""																														
+																														
+Task 33 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Checking the weather in Shanghai in a new tab worked the way I expected."""																														
+																														
+Task 34 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Being able to check the weather in a new tab is important to me."""																														
+																														
+Task 35 [Written Response]																														
+"Which of the following words best describes your experience of checking the weather in Shanghai in a new tab in this browser:Boring, Complicated, Calm, Creative, Cutting-edge, Exciting, Familiar, Fresh, Impressive, Innovative, Inspiring, Intimidating, Old, Professional, Trustworthy, or Unprofessional?"																														
+																														
+"Task 36 [Multiple Choice: Very dissatisfied, Somewhat dissatisfied, Neither satisfied nor dissatisfied, Somewhat satisfied, Very satisfied]"																														
+How satisfied are you with checking the weather in Shanghai in a new tab in this browser?																														
+																														
+Task 37 [Written Response]																														
+"Please share a bit about your experience with this task, and why you gave the ratings you did."																														
+																														
+Task 38																														
+"Task 5 of 7: Open a new tab, and search for the age of the oldest tree in the world."																														
+																														
+"Task 39 [Multiple Choice: Yes, No, I'm not sure.]"																														
+Were you able to successfully find the age of the oldest tree?																														
+																														
+"Task 40 [Multiple Choice: Much longer than I expected, Somewhat longer than I expected, About as I expected, Somewhat faster than I expected, Much faster than I expected]"																														
+The time it took to search for this information was...																														
+																														
+Task 41 [Rating Scale: Strongly disagree to Strongly agree]																														
+"Please rate to what extent you agree or disagree with the following statements:""Finding how to search the web from a new tab was easy."""																														
+																														
+Task 42 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Once I found how to do it, searching the web from a new tab was easy."""																														
+																														
+Task 43 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Searching the web from a new tab worked the way I expected."""																														
+																														
+Task 44 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Being able to search the web from a new tab is important to me."""																														
+																														
+Task 45 [Written Response]																														
+"Which of the following words best describes your experience of searching the web from a new tab in this browser:Boring, Complicated, Calm, Creative, Cutting-edge, Exciting, Familiar, Fresh, Impressive, Innovative, Inspiring, Intimidating, Old, Professional, Trustworthy, or Unprofessional?"																														
+																														
+"Task 46 [Multiple Choice: Very dissatisfied, Somewhat dissatisfied, Neither satisfied nor dissatisfied, Somewhat satisfied, Very satisfied]"																														
+How satisfied are you with searching the web in a new tab in this browser?																														
+																														
+Task 47 [Written Response]																														
+"Please share a bit about your experience with this task, and why you gave the ratings you did."																														
+																														
+Task 48																														
+"Task 6 of 7:In a new tab, use the Address Bar to go directly to outsideonline.com."																														
+																														
+"Task 49 [Multiple Choice: Yes, No, I'm not sure.]"																														
+Were you able to successfully go directly to the site?																														
+																														
+"Task 50 [Multiple Choice: Much longer than I expected, Somewhat longer than I expected, About as I expected, Somewhat faster than I expected, Much faster than I expected]"																														
+The time it took to get to a site using the Address Bar was...																														
+																														
+Task 51 [Rating Scale: Strongly disagree to Strongly agree]																														
+"Please rate to what extent you agree or disagree with the following statements:""Finding how to go directly to a site using the Address Bar was easy."""																														
+																														
+Task 52 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Once I found it, going directly to a site using the Address Bar was easy."""																														
+																														
+Task 53 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Going directly to a site using the Address Bar worked the way I expected."""																														
+																														
+Task 54 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Being able to go directly to a site using the Address Bar is important to me."""																														
+																														
+Task 55 [Written Response]																														
+"Which of the following words best describes your experience of going directly to a site using the Address Bar in this browser:Boring, Complicated, Calm, Creative, Cutting-edge, Exciting, Familiar, Fresh, Impressive, Innovative, Inspiring, Intimidating, Old, Professional, Trustworthy, or Unprofessional?"																														
+																														
+"Task 56 [Multiple Choice: Very dissatisfied, Somewhat dissatisfied, Neither satisfied nor dissatisfied, Somewhat satisfied, Very satisfied]"																														
+How satisfied are you with getting to a site using the Address Bar in this browser?																														
+																														
+Task 57 [Written Response]																														
+"Please share a bit about your experience with this task, and why you gave the ratings you did."																														
+																														
+Task 58																														
+"Task 7 of 7:Using the *current* tab, search for a review of the latest Honda CR-V."																														
+																														
+"Task 59 [Multiple Choice: Yes, No, I'm not sure.]"																														
+Were you able to successfully find a review of the latest Honda CR-V?																														
+																														
+"Task 60 [Multiple Choice: Much longer than I expected, Somewhat longer than I expected, About as I expected, Somewhat faster than I expected, Much faster than I expected]"																														
+The time it took to search the web from your current tab was...																														
+																														
+Task 61 [Rating Scale: Strongly disagree to Strongly agree]																														
+"Please rate to what extent you agree or disagree with the following statements:""Finding how to search the web from an existing tab was easy."""																														
+																														
+Task 62 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Once I found how to do it, searching the web from an existing tab was easy."""																														
+																														
+Task 63 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Searching the web form an existing tab worked the way I expected."""																														
+																														
+Task 64 [Rating Scale: Strongly disagree to Strongly agree]																														
+"""Being able to search the web from an existing tab is important to me."""																														
+																														
+Task 65 [Written Response]																														
+"Which of the following words best describes your experience of searching the web in an existing tab in this browser:Boring, Complicated, Calm, Creative, Cutting-edge, Exciting, Familiar, Fresh, Impressive, Innovative, Inspiring, Intimidating, Old, Professional, Trustworthy, or Unprofessional?"																														
+																														
+"Task 66 [Multiple Choice: Very dissatisfied, Somewhat dissatisfied, Neither satisfied nor dissatisfied, Somewhat satisfied, Very satisfied]"																														
+How satisfied are you with searching the web from an existing tab in this browser?																														
+																														
+Task 67 [Written Response]																														
+"Please share a bit about your experience with this task, and why you gave the ratings you did."																														
+																														
+Task 68																														
+That's it for tasks!  Click on the 'x' in the remote desktop app (near the top of your screen) to close your connection and we'll wrap up with just a few more general questions.																														
+																														
+																														
+Post-Test Questionnaire																														
+Question 1																														
+"Based on your experience today, how likely are you to recommend this browser to a friend or colleague (0=Not at all likely, and 10=Very Likely)?"	2	7	10	"0, answer would be different, I'm sure, had the remote desktop actually been functioning."	6	8	9	2	10	1	3	10	6	"5, I am more of a Google Chrome user, so I wouldn't recommend it, but it definitely was lower than 5 before today's test so that is a good sign of improvement"	7	10	7	9	10	9	5	6	5	8	5	7	9	9		10
+																														
+Question 2																														
+Please tell us a bit about how this session went... (too few or too many questions?  too simple or too complex?  etc.)	way too many questions about the exact same types of steps.  it was redundant.  I was expecting to see some new feature or method to make browsing easier and this was basic internet 101.	too many questions and not very many complex questions.	"I thought the overall number was high, but not for the type of questions asked. I do think it is important that you let the tester know about how long the test should take. Which you did, had you not done that, I might have worried about length given 71 tasks"	"There were a lot of questions, but they were repetitive (asked same follow up questions) between each task so it wasn't as daunting. Unfortunately, as stated, the desktop wasn't functioning so I wasn't able to stop and give thought to each question pertaining to each task."	"The questions were okay, it was the experience that was rather dull."	"There was one point where I was confused whether I was supposed to search on the website I was on or using the address bar. If there was no search on that website, or if the search yeilded no results it would have been easier.The questions were a good way for me to express my thoughts without talking as much as I normally would in a test. They were a good way for me to share all the points that I wanted to get to."	"A lot of questions, but they went by pretty quick. Overall I thought the tasks were pretty simple and easy to do but I'm not sure that majority of people need to do anything beyound what you just had me do. And I think if you get those things right, which in my opinion you did, I think people will really want to use the browser."	"The questions were fine, please clairfy the question asking you to search for the Honda CR-Vso that they know to leave the current webpage and type in a search into the address bar itself."	A lot of questions but they were super quick	"I didn't care for the ""words to describe"" question. I would rather come up with my own terms - the ones provided seemed like focus group nonsense words that didn't really apply."	"I thought the first few questions were good, but the last few were asking me about things that I felt were neither specific to microsoft edge nor novel. For example I use chrome and search in new tabs, exisiting tabs etc. all the time. There really wasn't a difference between what I alwas do and what you asked me to do as far as I can tell. If there was then the test wasn't explicit enough for me to notice it. So I ended up answering a lot of questions like ""Yea, typing in a web address is important. I know. I do it a hundred times a day"""	"I think the session was fine.  I wasn't sure if I was supposed to think out loud or not - there were no directions on speaking my thoughts.  Even though there were many questions, they were not complex, and I believe I was able to give my thoughts well without this session being too complicated."	It was pretty simple. The only task that was a little confusing is when it said to search from the current tab but I was on a different website without a search bar.	"too simple for me, since I am used to using google chrome all these functionalities were very familiar to me"	There were a perfect amount of questions but many of them were very simple. I wish there were more words on the list that I could have used to describe my experience.	"The session was very simple, but that was ok. I was able to predict the questions because they were very repetitious so maybe to reduce the amount of questions and make the test session less intimidating the questions could be reduced/combined."	The session went quickly and the questions were straight-forward. My one gripe would be that the descriptive words to be used as answers for some of the questions did not quite fit the kind of descriptors I would personally use.	I thought it was just fine.  At first I had a hard time opening the browser but once it loaded it was smooth sailing.  it really was very much like Chrome actually.	too simple	"the idea of not speaking as i preformed my task was a little unfamilair, but the questions were not hard at all. Some of the questions seems to be asking very similar things though, which seemed pretty redundent. overall i enjoyed the test though"	It was fine :)	"There was a delay with things and in the time of the delay it was difficult to determine if the browser was process my action, or didn't read my action.  It didn't feel like too many questions, but in order to answer them it took more than 20 minutes."	"I was worried about the number of questions at first, but overall I liked how the test was structured. I liked the scaled questions and long-form answers. I'm not sure if I was supposed to answer aloud as well, but the prompts did not indicate to do so (my apologies if I misunderstood). Overall, I enjoyed the test - job well done!"	"Questions asked were good and precise, they were uniform throughout each task. I liked that in asking to describe the site, words were given for me to choose from. Session went great and as expected in terms of length since that was also estimated for me."	"a lot of questions, the adjectives questions could have used radio boxes"	"very simple, a little disconcerting to download something to my computer. I almost dropped out for that reason, it would be nice to show more credentials to verify the safety of my computer. It seems like a lot of questions, but they go by really quick"	"The options given to express what you felt about each activity were a bit restricted and did not grasp a full range. There are more aspects that could be adressed, for example the browser icon, since it reminds me of Internet Explorer, I am going to assume that it is not as efficient as Edge is"	I had no questions. It was extremely easy to do.		"Too many questions if I look at the end time, but I enjoyed the tasks and learned more about the browser by following through."

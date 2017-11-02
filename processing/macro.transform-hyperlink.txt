@@ -1,0 +1,23 @@
+Sub TransformHyperlinks()
+    Dim Cell As Range
+    For Each Cell In Intersect(Selection, ActiveSheet.UsedRange)
+        If Cell.Hyperlinks.Count > 0 Then
+            ' append link text and url together delimited by something we can test for during import
+            Dim textLen As Integer
+            Dim textToDisplayLen As Integer
+
+            textLen = Len(Cell.Text)
+            textToDisplayLen = Len(Cell.Hyperlinks(1).TextToDisplay)
+
+            If textLen > 0 Then
+                Cell.Value = Cell.Text + ":::" + Cell.Hyperlinks(1).Address
+            ElseIf textToDisplayLen > 0 Then
+                Cell.Value = Cell.Hyperlinks(1).TextToDisplay + ":::" + Cell.Hyperlinks(1).Address
+            Else
+                Cell.Value = Cell.Hyperlinks(1).Address
+            End If
+
+            Cell.Hyperlinks(1).Delete
+        End If
+    Next
+End Sub
