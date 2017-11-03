@@ -1,5 +1,5 @@
 const fs = require('fs');
-const studyItem = require('./study-items.rs3.js');
+const { sessionTargets } = require('./session-targets.rs3.js');
 const studyFormat = require('./studyFormat').studyFormat;
 const eolCheckOrder = [
   { name: 'carriage return + new line', token: /\r\n/g },
@@ -8,22 +8,23 @@ const eolCheckOrder = [
   // { name: 'tab', token: /\t/g },
 ];
 const responseMap = studyFormat.responseMap;
-const DATA_ROOT = './data/';
-const VERBOSE = false;
+const DATA_ROOT = sessionTargets.dataRoot;
+const verboseTest = /verbose/i;
+const VERBOSE = process.argv.some(item => verboseTest.test(item));
 
+let study = studyFormat.studies.find(x => x.id === sessionTargets.studyId);
 let studyHashMap = {};
 
-studyItem.forEach(item => {
+sessionTargets.dataFiles.forEach(item => {
+  let group = !!item.group
+    ? study.groups.find(x => x.title === item.group)
+    : null;
+
   // process each referenced file
   item.fileList.forEach(file => {
-    console.log(`Importing file '${file}' ${item.browser ? ("as " + item.browser + ":") : "as questionaire"}${item.type || "" }`);
-
-    let study = studyFormat.studies.find(x => x.id === item.studyId);
-    let group = !!item.group
-      ? study.groups.find(x => x.title === item.group)
-      : null;
+    console.log(`\r\nImporting file '${file}' ${item.browser ? ("as " + item.browser + ":") : "as questionaire"}${item.group || "" }`);
     let rows = importFileAsRows(file);
-    let fileHashMap = generateDataMap(rows, item.targets, item.key, group);
+    let fileHashMap = generateDataMap(rows, item.targets, item.key, group, file);
 
     Object.keys(fileHashMap).filter(target => {
       return target != undefined;
@@ -46,16 +47,93 @@ studyItem.forEach(item => {
       }
     });
   });
-
 });
 
-exportAsFile('export.json', studyHashMap);
+let checkResult = checkImportResults(studyHashMap, study);
+
+if(checkResult) {
+  exportAsFile('export.json', studyHashMap);
+}
+
+function importFileAsRows(filename) {
+  let fileRows = [];
+  let resultRows = [];
+
+  try {
+    let fileData = fs.readFileSync(DATA_ROOT + filename, 'utf8');
+    let eol;
+    let eolInstances = -1;
+
+    // find file eol
+    eolCheckOrder.find((eolCheck, index) => {
+      let result = fileData.match(eolCheck.token);
+      let count = (result || []).length;
+
+      if (count) {
+        eol = eolCheck;
+        eolInstances = count;
+
+        if(VERBOSE) {
+          console.log(`Set eol to '${eolCheck.name}' ${count} instances found.`);
+        }
+
+        return true;
+      };
+    });
+
+    // transform file to rows
+    fileRows = fileData.split(eol.token);
 
 
-function generateDataMap(rows, props, key, group) {
+    // * Maybe a check at the last fileData char would allow a more precise outcome
+    if (fileRows.length !== eolInstances && fileRows.length !== (eolInstances + 1)) {
+      console.log('Expected fileRows length ' + fileRows.length + ' to equal eolInstances ' + eolInstances);
+    }
+    // console.log('Row count is ' + fileRows.length);
+    // console.log('\r\n', '** Processing rows');
+
+    fileRows.forEach((row, index) => {
+      let rowNumber = index + 1; // only used for logging
+      // early studies had mixed eol characters (format seems to be getting better)
+      let hasExpandedRows = eolCheckOrder.find(eolCheck => {
+        let count = (row.match(eolCheck.token) || []).length;
+
+        if (count) {
+          let expandedRows = row.split(eolCheck.token);
+
+          console.log('@row ' + rowNumber + ': Expanding (' + expandedRows.length + ')');
+          expandedRows.forEach((x, i) => {
+            resultRows.push(x);
+            console.log(`  +row ${rowNumber}.${i + 1} - (${resultRows.length})`);
+          });
+        }
+
+        return !!count;
+      });
+
+      if (!hasExpandedRows) {
+        resultRows.push(row);
+
+        if(VERBOSE) {
+          console.log(`+row ${rowNumber} = (${resultRows.length})`);
+        }
+      }
+
+    });
+
+  } catch (err) {
+    console.log('error loading data: ', err);
+  }
+
+  return resultRows;
+}
+
+function generateDataMap(rows, props, key, group, file) {
   let dataMap = {};
   let participantList = [];
   let keyIndex = 0;
+  let hasWordMatchSteps = false;
+  let nonWordMatchList = [];
 
   // find keyIndex based
   rows.find((row, index) => {
@@ -134,6 +212,7 @@ function generateDataMap(rows, props, key, group) {
 
               cellVal = isNaN(n) ? cellVal : n;
             } else if (studyStep.responseType === 'wordAssociation') {
+              hasWordMatchSteps = true;
               let matchWords = responseMap.wordAssociation.responses.reduce((accum, item) => {
                 let reg = new RegExp(('\\b' + item), "gi");
                 let count = (cellVal.match(reg) || []).length;
@@ -154,11 +233,9 @@ function generateDataMap(rows, props, key, group) {
 
               if(!matched) {
                 // Should be catching misspelled words during scrub step. Logging to console for peace of mind.
-                console.log('No Match: ' + cellVal + ' @ ' + group.title + "|" + studyStep.id + "|" + participantList[i]);
-              }
-
-              if(VERBOSE) {
-                console.log('Match: ' + cellVal + ' == ' + matched);
+                nonWordMatchList.push('No words matched in response "' + cellVal + '" @ ' + participantList[i] + ' | ' + studyStep.id);
+              } else if(VERBOSE) {
+                nonWordMatchList.push('Words matched: "' + cellVal + '" == ' + matched + ' @ ' + participantList[i] + ' | ' + studyStep.id);
               }
               cellVal = matchWords;
             }
@@ -185,6 +262,15 @@ function generateDataMap(rows, props, key, group) {
     }
   });
 
+  if(hasWordMatchSteps) {
+    console.log('Checking word associations');
+    if(nonWordMatchList.length === 0 && !VERBOSE) {
+      console.log('All responses contained matches');
+    } else {
+      nonWordMatchList.forEach(x => console.log(x));
+    }
+  }
+
   return dataMap;
 }
 
@@ -196,89 +282,6 @@ function getStudyStep(group, propName) {
 
 function scrubResponse(response) {
   return response.replace(/\"/g, '');
-}
-
-function exportAsFile(filename, data) {
-  fs.writeFile(DATA_ROOT + filename, JSON.stringify(studyHashMap), 'utf8', function (err) {
-    if (err) {
-      return console.log(err);
-    }
-
-    console.log(`Export successful.`);
-  });
-}
-
-function importFileAsRows(filename) {
-  let fileRows = [];
-  let resultRows = [];
-
-  try {
-    let fileData = fs.readFileSync(filename, 'utf8');
-    let eol;
-    let eolInstances = -1;
-
-    // find file eol
-    eolCheckOrder.find((eolCheck, index) => {
-      let result = fileData.match(eolCheck.token);
-      let count = (result || []).length;
-
-      if (count) {
-        eol = eolCheck;
-        eolInstances = count;
-
-        if(VERBOSE) {
-          console.log(`Set eol to '${eolCheck.name}' ${count} instances found.`);
-        }
-
-        return true;
-      };
-    });
-
-    // transform file to rows
-    fileRows = fileData.split(eol.token);
-
-
-    // * Maybe a check at the last fileData char would allow a more precise outcome
-    if (fileRows.length !== eolInstances && fileRows.length !== (eolInstances + 1)) {
-      console.log('Expected fileRows length ' + fileRows.length + ' to equal eolInstances ' + eolInstances);
-    }
-    // console.log('Row count is ' + fileRows.length);
-    // console.log('\r\n', '** Processing rows');
-
-    fileRows.forEach((row, index) => {
-      let rowNumber = index + 1; // only used for logging
-      // early studies had mixed eol characters (format seems to be getting better)
-      let hasExpandedRows = eolCheckOrder.find(eolCheck => {
-        let count = (row.match(eolCheck.token) || []).length;
-
-        if (count) {
-          let expandedRows = row.split(eolCheck.token);
-
-          console.log('@row ' + rowNumber + ': Expanding (' + expandedRows.length + ')');
-          expandedRows.forEach((x, i) => {
-            resultRows.push(x);
-            console.log(`  +row ${rowNumber}.${i + 1} - (${resultRows.length})`);
-          });
-        }
-
-        return !!count;
-      });
-
-      if (!hasExpandedRows) {
-        resultRows.push(row);
-
-        if(VERBOSE) {
-          console.log(`+row ${rowNumber} = (${resultRows.length})`);
-        }
-      }
-
-    });
-
-  } catch (err) {
-    console.log('error loading data: ', err);
-  }
-
-  return resultRows;
 }
 
 function getClipOffset(url) {
@@ -309,4 +312,42 @@ function getClipDuration(timecode) {
   }
 
   return duration;
+}
+
+function checkImportResults(studyHashMap, study) {
+  let result = true;
+
+  console.log('\r\nConfirming participant data');
+
+  Object.keys(studyHashMap).sort().forEach((id, index) => {
+    let group = studyHashMap[id].__taskGroup;
+    let tasks = studyHashMap[id].__tasks;
+    let missingTasks = [];
+    let taskCount = study.groups.find(x => x.title === group).tasks.length;
+
+    for(var i = 1; i <= taskCount; i++) {
+      if(tasks[i] == undefined) {
+        missingTasks.push(i)
+        result = false;
+      }
+    }
+
+    let result = missingTasks.length
+      ? (' -> checked:missing[' + missingTasks.join(',') + ']')
+      : ' -> checked:ok';
+
+    console.log((index + 1) + ') ' + id + ' (' + group + ')' + result);
+  });
+
+  return result;
+}
+
+function exportAsFile(filename, data) {
+  fs.writeFile(DATA_ROOT + filename, JSON.stringify(studyHashMap), 'utf8', function (err) {
+    if (err) {
+      return console.log(err);
+    }
+
+    console.log(`\r\nExport successful.`);
+  });
 }

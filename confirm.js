@@ -30,4 +30,3 @@ Object.keys(data).sort().forEach((id, index) => {
 
   console.log((index + 1) + ') ' + id + ':' + group + result);
 });
-
